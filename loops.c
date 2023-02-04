@@ -13,6 +13,10 @@ int main() {
 	while (count < 20) {
 		printf("welcome\n");
 		count = count + 1;
+
 	}
+
+	char letter = "";
+
 	return 0;
 }

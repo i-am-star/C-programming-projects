@@ -1,20 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//program that accepts user information
-
 int main()
 {
-    const char NAMES[20];
-    const int AGE;
-    const char EMAIL[70];
-    printf("What should i call you:\n");
-    scanf("%s", NAMES);
-    printf("Hello %s\n", NAMES);
-printf("How old are you:\n");
-    scanf("%d", AGE);
-
-     printf("Enter your email address:\n");
-    scanf("%s", EMAIL);
-    return 0;
+    int Num1;
+int Num2;
+int result = Num1 + Num2;
+printf("Enter a number:\n");
+scanf("%d", &Num1);
+printf("Enter a second number:\n");
+scanf("%d", &Num2);
+printf("%d", "+", "%d", "=", Num1 + Num2);
+return 0;
 }

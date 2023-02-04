@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1675523641 source:c:\users\uchechi\gitrepo\c-programming-projects\practice\main.c
+	<stdio.h>
+	<stdlib.h>
+

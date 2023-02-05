@@ -9,6 +9,8 @@ printf("First we do some addition\n");
 addNum();
 printf("then some subtraction\n");
 subNum();
+printf("Another addition\n");
+addSum(4, 4);
 
 return 0;
 }
@@ -22,7 +24,7 @@ void addNum()
 scanf("%d", &Num1);
 printf("Enter the second number:");
 scanf("%d", &Num2);
-printf("Answer: %d", Num1 + Num2);
+printf("Answer: %d\n", Num1 + Num2);
 }
 void subNum()
 {
@@ -33,5 +35,11 @@ void subNum()
     scanf("%d", &Num1);
     printf("Enter the second number:");
     scanf("%d", &Num2);
- printf("Answer:%d", Num1 - Num2);
+ printf("Answer:%d\n", Num1 - Num2);
+}
+//function with parameters
+void addSum(int Num1, int Num2)
+{
+    int result = Num1 + Num2;
+    printf("%d + %d = %d", Num1, Num2, Num1 + Num2);
 }

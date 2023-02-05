@@ -5,9 +5,9 @@
 int main()
 {
 printf("Simple calculator program\n");
-printf("First we do some addition");
+printf("First we do some addition\n");
 addNum();
-printf("\n then some subtraction");
+printf("then some subtraction\n");
 subNum();
 
 return 0;

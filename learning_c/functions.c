@@ -3,6 +3,12 @@
 #include <stdlib.h>
 #include <math.h>
 
+void addNum();
+void subNum();
+void addSum(int Num1, int Num2);
+int sumNum(int Num1, int Num2);
+int timesNum(int Num3, int Num4);
+
 int main()
 {
 printf("Simple calculator program\n");
